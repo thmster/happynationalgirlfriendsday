@@ -49,3 +49,230 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy National Girlfriend Day</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+      overflow: hidden;
+    }
+
+    .card {
+      width: 700px;
+      height: 550px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 1s;
+    }
+
+    .card.flip .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .card-front {
+      background: #ffe4e9;
+      color: #d6336c;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .card-front p {
+      font-size: 18px;
+      margin-top: 12px;
+      color: #9d174d;
+    }
+
+    .card-back {
+      background: #ff99ac;
+      color: white;
+      transform: rotateY(180deg);
+      flex-direction: column;
+      justify-content: flex-start;
+      overflow-y: auto;
+    }
+
+    .header-big {
+      font-size: 42px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .section {
+      margin: 18px 0;
+    }
+
+    .section h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff5f7;
+      text-decoration: underline;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .footer {
+      font-size: 16px;
+      font-style: italic;
+      margin-top: auto;
+      text-align: center;
+    }
+
+    .hearts {
+      font-size: 34px;
+      margin: 15px 0;
+      animation: float 2s infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0); }
+    }
+
+    .photo-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .photo-frame {
+      border: 4px solid white;
+      border-radius: 12px;
+      padding: 5px;
+      background: #fff0f5;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      width: 180px;
+      height: auto;
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card" onclick="this.classList.toggle('flip')">
+    <div class="card-inner">
+      <!-- Front -->
+      <div class="card-front">
+        💌 A Special Surprise Awaits You  
+        <p>(Click here to open 💖)</p>
+      </div>
+      <!-- Back -->
+      <div class="card-back">
+        <div class="header-big">Happy National Girlfriend Day 💖</div>
+        
+        <div class="section">
+          <h3>🌸 My Love</h3>
+          <p>
+            Today, I want to take a moment to remind you just how much you mean to me.  
+            You are more than just my girlfriend, you are my best friend, my safe haven,  
+            and the most beautiful blessing life has ever given me.  
+            Every day I spend with you is a gift I will never take for granted.  
+          </p>
+        </div>
+
+        <div class="section">
+          <h3>💌 A Special Note</h3>
+          <p>
+            Thank you for being with me through my ups and downs.  
+            I know I can be difficult at times, and I’m not always the easiest person to love,  
+            but you stay by my side and remind me that love is patient,  
+            kind, and unconditional.  
+            With you, I’ve found not only a partner but also a home for my soul.  
+          </p>
+        </div>
+
+        <div class="section">
+          <h3>💖 From My Heart</h3>
+          <p>
+            Thank you for being with me. I know I'm not perfect,  
+            and I may not always say the right words, but please know this,  
+            I will never leave you. I cannot imagine a life without you in it.  
+            You are my laughter in the hard times,  
+            my comfort when I feel lost, and my reason to keep moving forward.  
+          </p>
+          <p>
+            Sometimes, I wonder what I did to deserve someone as amazing as you.  
+            You make me want to be a better man, not just for myself but for us.  
+            You are my greatest blessing, and I promise to keep cherishing you every single day.  
+          </p>
+        </div>
+
+        <div class="section">
+          <h3>📸 Memories With You</h3>
+          <div class="photo-gallery">
+            <div class="photo-frame">
+              <img src="2f6a92fc-98ba-461b-90f0-1a69898d17d8.jpg" alt="Memory 1">
+            </div>
+            <div class="photo-frame">
+              <img src="0283f7f9-7013-40c1-aea0-32afd46b5f0e.jpg" alt="Memory 2">
+            </div>
+            <div class="photo-frame">
+              <img src="8671e42e-7b45-4bc9-9ec7-7adce21ae874.jpg" alt="Memory 3">
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>🌹 Forever Together</h3>
+          <p>
+            No matter where life takes us, I want you to know one thing:  
+            I choose you, again and again, without a doubt and without hesitation.  
+            You are my heart, my happiness, and my forever.  
+            One day, I hope to look back with you and realize  
+            that this was only the beginning of our beautiful story.  
+          </p>
+        </div>
+
+        <div class="hearts">❤️ 💕 ❤️</div>
+        <div class="footer">Forever yours,<br> Kevs</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
